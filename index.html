@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fiore 084 — Moda Masculina</title>
+<meta name="description" content="Fiore 084 — moda masculina e acessórios em Parnamirim/RN. Mais de 10 anos de loja, entrega via Uber no mesmo dia e parcelamento em até 6x sem juros.">
+<meta name="theme-color" content="#0a0a0b">
+<link rel="icon" href="assets/img/emblema.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="is-loading">
+
+<div class="loader" id="loader" aria-hidden="true">
+  <img src="assets/img/emblema.png" alt="" class="loader__mark">
+  <div class="loader__count"><span id="loaderCount">000</span></div>
+  <div class="loader__bar"><i id="loaderBar"></i></div>
+</div>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" id="cursor" aria-hidden="true"><span id="cursorLabel"></span></div>
+
+<header class="header" id="header">
+  <a href="#topo" class="brand" aria-label="Fiore 084 — início">
+    <img src="assets/img/emblema.png" alt="" class="brand__mark">
+    <span class="brand__name">Fiore<em>084</em></span>
+  </a>
+  <nav class="nav" id="nav" aria-label="Principal">
+    <a href="#lookbook" data-n="01">Lookbook</a>
+    <a href="#vitrine" data-n="02">Vitrine</a>
+    <a href="#tech" data-n="03">Calça Tech</a>
+    <a href="#pratas" data-n="04">Pratas 925</a>
+    <a href="#visite" data-n="05">Visite</a>
+  </nav>
+  <div class="header__actions">
+    <span class="status" data-status><i></i><b>—</b></span>
+    <button class="bag-btn" id="bagOpen" aria-label="Abrir sacola" data-cursor="Sacola">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.2 12.2a1 1 0 0 1-1 .8H7.2a1 1 0 0 1-1-.8L5 8Z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></svg>
+      <span class="bag-btn__count" id="bagCount">0</span>
+    </button>
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="topo">
+
+  <section class="hero">
+    <div class="hero__meta hero__meta--top">
+      <span>Moda Masculina &amp; Acessórios</span>
+      <span>Parnamirim — RN</span>
+    </div>
+
+    <h1 class="hero__title" aria-label="Fiore 084">
+      <span class="line"><span class="chrome reveal-up">Fiore</span></span>
+      <span class="line line--right"><em class="chrome reveal-up" style="--d:.12s">084</em></span>
+    </h1>
+
+    <figure class="hero__frame" data-cursor="Play">
+      <video class="hero__video" src="assets/video/look1.mp4" poster="assets/video/poster1.jpg" autoplay muted loop playsinline preload="metadata"></video>
+      <figcaption>Nova coleção · Black essentials</figcaption>
+    </figure>
+
+    <div class="hero__aside">
+      <p class="hero__lead">Mais de dez anos vestindo o homem potiguar com peças que funcionam sem precisar de muito. Curadoria, caimento e atendimento de quem conhece cada cliente pelo nome.</p>
+      <div class="hero__cta">
+        <a href="#vitrine" class="btn btn--chrome magnetic"><span>Ver vitrine</span></a>
+        <a href="https://wa.me/558496798416" target="_blank" rel="noopener" class="btn btn--ghost magnetic"><span>Falar no WhatsApp</span></a>
+      </div>
+    </div>
+
+    <div class="hero__meta hero__meta--bottom">
+      <span class="scroll-hint">Role<i></i></span>
+      <span>26 mil seguidores · 500+ looks publicados</span>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Entrega via Uber no mesmo dia</span><b>✦</b>
+      <span>Até 6x sem juros</span><b>✦</b>
+      <span>Mais de 10 anos de loja</span><b>✦</b>
+      <span>Joias em prata 925</span><b>✦</b>
+      <span>Entrega via Uber no mesmo dia</span><b>✦</b>
+      <span>Até 6x sem juros</span><b>✦</b>
+      <span>Mais de 10 anos de loja</span><b>✦</b>
+      <span>Joias em prata 925</span><b>✦</b>
+    </div>
+  </div>
+
+  <section class="manifesto">
+    <span class="eyebrow">Manifesto</span>
+    <p class="manifesto__text" id="manifesto">Um bom look não grita. Ele se resolve no detalhe: o tecido certo, a barra no ponto, o relógio que fecha a composição. Na Fiore, cada peça é escolhida para durar mais que uma estação.</p>
+    <div class="stats">
+      <div class="stat"><strong data-count="10" data-suffix="+">0</strong><span>anos de loja</span></div>
+      <div class="stat"><strong data-count="26" data-suffix="k">0</strong><span>seguidores</span></div>
+      <div class="stat"><strong data-count="6" data-suffix="x">0</strong><span>sem juros</span></div>
+      <div class="stat"><strong data-count="1" data-suffix=" dia">0</strong><span>entrega via Uber</span></div>
+    </div>
+  </section>
+
+  <section class="lookbook" id="lookbook">
+    <div class="lookbook__sticky">
+      <div class="lookbook__head">
+        <span class="eyebrow">01 — Lookbook</span>
+        <h2 class="section-title">Três capítulos,<br><em>um mesmo padrão.</em></h2>
+        <div class="lookbook__progress"><i id="lbProgress"></i></div>
+      </div>
+      <div class="lookbook__track" id="lbTrack">
+
+        <article class="chapter">
+          <div class="chapter__media" data-cursor="Ver look">
+            <video src="assets/video/look1.mp4" poster="assets/video/poster1.jpg" muted loop playsinline preload="none"></video>
+          </div>
+          <div class="chapter__info">
+            <span class="chapter__num">Cap. I</span>
+            <h3>Black <em>Casual</em></h3>
+            <p>Camiseta preta de algodão, jeans claro e tênis de couro. O uniforme de quem não perde tempo escolhendo.</p>
+            <ul class="chapter__items">
+              <li>Camiseta Essential Preta</li><li>Calça Jeans Lavagem Clara</li><li>Tênis Couro Preto</li>
+            </ul>
+            <button class="link-btn" data-look="1">Comprar o look <span>→</span></button>
+          </div>
+        </article>
+
+        <article class="chapter">
+          <div class="chapter__media" data-cursor="Ver look">
+            <video src="assets/video/look2.mp4" poster="assets/video/poster2.jpg" muted loop playsinline preload="none"></video>
+          </div>
+          <div class="chapter__info">
+            <span class="chapter__num">Cap. II</span>
+            <h3>Bordô <em>&amp; Areia</em></h3>
+            <p>Camisa social de manga curta, sarja bege e mocassim camurça. Funciona do escritório ao jantar.</p>
+            <ul class="chapter__items">
+              <li>Camisa Social Bordô</li><li>Calça Sarja Areia</li><li>Mocassim Camurça Café</li>
+            </ul>
+            <button class="link-btn" data-look="2">Comprar o look <span>→</span></button>
+          </div>
+        </article>
+
+        <article class="chapter">
+          <div class="chapter__media" data-cursor="Ver look">
+            <video src="assets/video/look3.mp4" poster="assets/video/poster3.jpg" muted loop playsinline preload="none"></video>
+          </div>
+          <div class="chapter__info">
+            <span class="chapter__num">Cap. III</span>
+            <h3>Calça <em>Tech</em></h3>
+            <p>Ajuste lateral, tecido com elastano e quatro cores. A calça que se adapta a você, não o contrário.</p>
+            <ul class="chapter__items">
+              <li>Calça Tech Ajuste Lateral</li><li>Relógio Cronógrafo</li>
+            </ul>
+            <button class="link-btn" data-look="3">Comprar o look <span>→</span></button>
+          </div>
+        </article>
+
+        <article class="chapter chapter--end">
+          <p class="chapter__end">A vitrine completa<br><em>está logo abaixo.</em></p>
+          <a href="#vitrine" class="btn btn--chrome magnetic"><span>Ir para a vitrine</span></a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="vitrine" id="vitrine">
+    <div class="vitrine__head">
+      <div>
+        <span class="eyebrow">02 — Vitrine</span>
+        <h2 class="section-title">Peças <em>selecionadas</em></h2>
+      </div>
+      <div class="filters" role="tablist" aria-label="Filtrar categorias" id="filters">
+        <button class="filter is-active" data-filter="todos" role="tab" aria-selected="true">Todos</button>
+        <button class="filter" data-filter="camisas" role="tab" aria-selected="false">Camisas</button>
+        <button class="filter" data-filter="calcas" role="tab" aria-selected="false">Calças</button>
+        <button class="filter" data-filter="calcados" role="tab" aria-selected="false">Calçados</button>
+        <button class="filter" data-filter="acessorios" role="tab" aria-selected="false">Acessórios</button>
+        <button class="filter" data-filter="prata" role="tab" aria-selected="false">Prata 925</button>
+      </div>
+    </div>
+    <div class="vitrine__bar">
+      <span id="vitrineCount">— peças</span>
+      <label class="sort">Ordenar
+        <select id="sort">
+          <option value="destaque">Destaques</option>
+          <option value="menor">Menor preço</option>
+          <option value="maior">Maior preço</option>
+        </select>
+      </label>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="tech" id="tech">
+    <div class="tech__media">
+      <img src="assets/img/v-tech2.jpg" alt="Calça Tech na cor areia" id="techImg">
+      <span class="tech__tag" id="techTag">Areia</span>
+    </div>
+    <div class="tech__content">
+      <span class="eyebrow">03 — Destaque da casa</span>
+      <h2 class="section-title">Calça <em>Tech</em></h2>
+      <p class="tech__lead">Ajuste lateral regulável, cintura que acompanha o corpo e tecido com toque frio. Dispensa cinto, não marca e não amassa no fim do dia.</p>
+      <div class="tech__specs">
+        <div><span>Ajuste</span><strong>Lateral regulável</strong></div>
+        <div><span>Tecido</span><strong>Com elastano</strong></div>
+        <div><span>Modelagem</span><strong>Slim</strong></div>
+        <div><span>Tamanhos</span><strong>38 ao 48</strong></div>
+      </div>
+      <div class="swatches" id="swatches" role="radiogroup" aria-label="Cor da Calça Tech">
+        <button class="swatch is-active" style="--c:#c9bfae" data-img="assets/img/v-tech2.jpg" data-name="Areia" role="radio" aria-checked="true" aria-label="Areia"></button>
+        <button class="swatch" style="--c:#7d7f80" data-img="assets/img/v-tech3.jpg" data-name="Grafite" role="radio" aria-checked="false" aria-label="Grafite"></button>
+        <button class="swatch" style="--c:#1b1b1d" data-img="assets/img/v-tech4.jpg" data-name="Preto" role="radio" aria-checked="false" aria-label="Preto"></button>
+        <button class="swatch" style="--c:#28324a" data-img="assets/img/v-tech5.jpg" data-name="Marinho" role="radio" aria-checked="false" aria-label="Marinho"></button>
+      </div>
+      <div class="tech__buy">
+        <span class="price" id="techPrice"></span>
+        <button class="btn btn--chrome magnetic" id="techBuy"><span>Escolher tamanho</span></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="pratas" id="pratas">
+    <div class="pratas__logo">
+      <img src="assets/img/logo-pratas.png" alt="Fiore Pratas">
+    </div>
+    <div class="pratas__body">
+      <span class="eyebrow">04 — Fiore Pratas</span>
+      <h2 class="section-title">Joias em <em>prata 925</em></h2>
+      <p>A extensão da Fiore para os amantes de prata. Pulseiras, berloques e peças personalizadas com o mesmo cuidado da loja.</p>
+      <a href="https://instagram.com/fiorepratas_" target="_blank" rel="noopener" class="link-btn">Seguir @fiorepratas_ <span>→</span></a>
+    </div>
+    <figure class="pratas__photo" data-cursor="Ver peça" data-open="pulseira-925">
+      <img src="assets/img/p-pulseira.jpg" alt="Pulseira em prata 925 com berloques">
+    </figure>
+  </section>
+
+  <section class="perks">
+    <div class="perk">
+      <span class="perk__n">i.</span>
+      <h3>Entrega no mesmo dia</h3>
+      <p>Comprou até o fim da tarde? A peça sai via Uber e chega hoje em Natal e Parnamirim.</p>
+    </div>
+    <div class="perk">
+      <span class="perk__n">ii.</span>
+      <h3>6x sem juros</h3>
+      <p>Parcelamento em até seis vezes no cartão, sem acréscimo.</p>
+    </div>
+    <div class="perk">
+      <span class="perk__n">iii.</span>
+      <h3>Atendimento de alfaiataria</h3>
+      <p>Ajudamos a montar o look completo, do tamanho certo ao acessório que fecha a composição.</p>
+    </div>
+  </section>
+
+  <section class="visite" id="visite">
+    <div class="visite__left">
+      <span class="eyebrow">05 — Visite a loja</span>
+      <h2 class="section-title">Passe na <em>Fiore.</em></h2>
+      <p class="visite__status"><span class="status status--big" data-status><i></i><b>—</b></span></p>
+      <div class="visite__actions">
+        <a href="https://wa.me/558496798416" target="_blank" rel="noopener" class="btn btn--chrome magnetic"><span>(84) 9679-8416</span></a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Fiore+084+Parnamirim+RN" target="_blank" rel="noopener" class="btn btn--ghost magnetic"><span>Como chegar</span></a>
+      </div>
+      <a href="https://instagram.com/fiore084_" target="_blank" rel="noopener" class="visite__ig">@fiore084_</a>
+    </div>
+    <div class="hours">
+      <h3>Horários</h3>
+      <ul id="hours"></ul>
+      <p class="hours__note">Intervalo de almoço das 12h às 14h, de segunda a sexta.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__big chrome">Fiore<em>084</em></div>
+  <div class="footer__row">
+    <span>© <span id="year"></span> Fiore 084 · Parnamirim — RN</span>
+    <a href="#topo">Voltar ao topo ↑</a>
+  </div>
+</footer>
+
+<aside class="drawer" id="drawer" aria-hidden="true" aria-label="Sacola">
+  <div class="drawer__overlay" data-close></div>
+  <div class="drawer__panel" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+    <div class="drawer__head">
+      <h2 id="drawerTitle">Sacola <sup id="drawerCount">0</sup></h2>
+      <button class="icon-btn" data-close aria-label="Fechar sacola">✕</button>
+    </div>
+    <div class="drawer__body" id="bagList"></div>
+    <div class="drawer__foot" id="bagFoot">
+      <div class="drawer__delivery">
+        <label><input type="radio" name="entrega" value="Retirar na loja" checked> Retirar na loja</label>
+        <label><input type="radio" name="entrega" value="Entrega via Uber"> Entrega via Uber</label>
+      </div>
+      <div class="drawer__total"><span>Subtotal</span><strong id="bagTotal">R$ 0,00</strong></div>
+      <p class="drawer__inst" id="bagInst"></p>
+      <button class="btn btn--chrome btn--full" id="checkout"><span>Finalizar pelo WhatsApp</span></button>
+      <button class="drawer__clear" id="bagClear">Esvaziar sacola</button>
+    </div>
+  </div>
+</aside>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal__overlay" data-close></div>
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+    <button class="icon-btn modal__close" data-close aria-label="Fechar">✕</button>
+    <div class="modal__gallery">
+      <img id="mImg" alt="">
+      <div class="modal__thumbs" id="mThumbs"></div>
+    </div>
+    <div class="modal__info">
+      <span class="eyebrow" id="mCat"></span>
+      <h2 id="mTitle"></h2>
+      <p class="modal__price"><strong id="mPrice"></strong><span id="mInst"></span></p>
+      <p class="modal__desc" id="mDesc"></p>
+      <div class="opt" id="mColorWrap">
+        <span class="opt__label">Cor: <b id="mColorName"></b></span>
+        <div class="opt__list" id="mColors"></div>
+      </div>
+      <div class="opt">
+        <span class="opt__label">Tamanho <b id="mSizeHint"></b></span>
+        <div class="opt__list" id="mSizes"></div>
+      </div>
+      <div class="modal__actions">
+        <div class="qty">
+          <button id="mMinus" aria-label="Diminuir">−</button>
+          <span id="mQty">1</span>
+          <button id="mPlus" aria-label="Aumentar">+</button>
+        </div>
+        <button class="btn btn--chrome btn--full" id="mAdd"><span>Adicionar à sacola</span></button>
+      </div>
+      <p class="modal__perk">Entrega via Uber no mesmo dia · Até 6x sem juros</p>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<a href="https://wa.me/558496798416" target="_blank" rel="noopener" class="wa-float" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.7a10.7 10.7 0 0 1-5.5-1.5l-.4-.2-3.9 1 1-3.8-.2-.4A10.7 10.7 0 1 1 16 26.7Zm5.9-8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4 14.7 14.7 0 0 0 5.6 5c2.1.9 2.9 1 4 .8a3.4 3.4 0 0 0 2.2-1.6 2.8 2.8 0 0 0 .2-1.6c-.1-.2-.3-.3-.6-.4Z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
